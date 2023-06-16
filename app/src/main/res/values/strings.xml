@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">VengaAMiPueblo2</string>
+
+    <string name="descripcionhoteles">
+        En Sapzurro, encontraras hoteles, cabañas, senderos ecologicos y glampings
+        desde los $80000 COP por noche, comodas habitaciones que te permitaran
+        disfrutar del descanso y el relax del pueblo
+    </string>
+
+    <string name="descripcionrestaurantes">
+        En Sapzurro, encontraras hoteles, cabañas, senderos ecologicos y glampings
+        desde los $80000 COP por noche, comodas habitaciones que te permitaran
+        disfrutar del descanso y el relax del pueblo
+    </string>
+
+    <string name="descripcionsitios">
+        En Sapzurro, encontraras hoteles, cabañas, senderos ecologicos y glampings
+        desde los $80000 COP por noche, comodas habitaciones que te permitaran
+        disfrutar del descanso y el relax del pueblo
+    </string>
+
+    <string name="opcion1">Español</string>
+    <string name="opcion2">Ingles</string>
+    <string name="opcion3">Italiano</string>
+    <string name="opcion4">Frances</string>
+</resources>

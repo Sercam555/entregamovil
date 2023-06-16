@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VengaAMiPueblo2</string>
+
+    <string name="descripcionhoteles">
+       A Sapzurro troverai hotel, baite, percorsi ecologici e glamping
+        da $ 80.000 COP a notte, camere confortevoli che ti permetteranno
+        di goderti il riposo e il relax della città
+    </string>
+
+    <string name="descripcionrestaurantes">
+       A Sapzurro troverai hotel, baite, percorsi ecologici e glamping
+        da $ 80.000 COP a notte, camere confortevoli che ti permetteranno
+        di goderti il riposo e il relax della città
+    </string>
+
+    <string name="descripcionsitios">
+       A Sapzurro troverai hotel, baite, percorsi ecologici e glamping
+        da $ 80.000 COP a notte, camere confortevoli che ti permetteranno
+        di goderti il riposo e il relax della città
+    </string>
+
+    <string name="opcion1">spagnolo</string>
+    <string name="opcion2">Inglese</string>
+    <string name="opcion3">Italiano</string>
+    <string name="opcion4">Portoghese</string>
+
+</resources>

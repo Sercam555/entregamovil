@@ -24,7 +24,7 @@
 
     <Button
         android:id="@+id/botonhoteles"
-        android:text="Hoteles"
+        android:text="@string/botonhoteles"
         android:textColor="@color/white"
         android:background="@drawable/botonredondo"
         android:textSize="22dp"
@@ -39,7 +39,7 @@
 
     <Button
         android:id="@+id/botonrestaurantes"
-        android:text="Restaurantes"
+        android:text="@string/botonrestaurantes"
         android:textColor="@color/white"
         android:background="@drawable/botonredondo"
         android:textSize="22dp"
@@ -54,7 +54,7 @@
 
     <Button
         android:id="@+id/botonturismo"
-        android:text="Sitios turisticos"
+        android:text="@string/botonturismo"
         android:textColor="@color/white"
         android:background="@drawable/botonredondo"
         android:textSize="22dp"

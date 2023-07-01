@@ -1,6 +1,9 @@
 package com.example.vengaamipueblo2;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -8,6 +11,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
+import java.util.Locale;
 
 public class Home extends AppCompatActivity {
 
@@ -69,10 +74,14 @@ public class Home extends AppCompatActivity {
         switch (itemSeleccionado)
         {
             case(R.id.opcion1):
-                Toast.makeText(this, "accionaste op1", Toast.LENGTH_SHORT).show();
+                this.cambiarIdioma("es");
+                Intent intentEspanol = new Intent(Home.this, Home.class);
+                startActivity(intentEspanol);
                 break;
             case(R.id.opcion2):
-                Toast.makeText(this, "accionaste op2", Toast.LENGTH_SHORT).show();
+                this.cambiarIdioma("en");
+                Intent intentIngles= new Intent(Home.this,Home.class);
+                startActivity(intentIngles);
                 break;
             case(R.id.opcion3):
                 Toast.makeText(this, "accionaste op3", Toast.LENGTH_SHORT).show();
@@ -82,5 +91,23 @@ public class Home extends AppCompatActivity {
                 break;
         }
         return super.onOptionsItemSelected(item);
+    }
+    //metodo para cambiar el idioma de la app
+    public void cambiarIdioma(String idioma){
+
+        //Crear un objeto de la clase LOCALE para modificar el idioma
+        Locale locale=new Locale(idioma);
+        Locale.setDefault(locale);
+
+        //Establer la configuración del idioma en el telefono
+        Resources resources=getResources();
+        Configuration configuration=resources.getConfiguration();
+        configuration.setLocale(locale);
+
+
+        //Actualizo la configuración del telefono
+        //ejecutamos la configuracion
+        getBaseContext().getResources().updateConfiguration(configuration,getBaseContext().getResources().getDisplayMetrics());
+
     }
 }

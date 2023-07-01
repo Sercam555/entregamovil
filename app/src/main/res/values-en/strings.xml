@@ -21,9 +21,16 @@
          the rest and relaxation of the town
     </string>
 
+    <string name="acercade">About</string>
     <string name="opcion1">Spanish</string>
     <string name="opcion2">English</string>
     <string name="opcion3">Italian</string>
     <string name="opcion4">Portuguese</string>
+    <string name="botonhoteles">Hotels</string>
+    <string name="botonrestaurantes">Restaurant</string>
+    <string name="botonturismo">Tourist sites</string>
+    <string name="nombreapp">Populating 2</string>
+    <string name="descripcion">I am Alexandra Martínez, I am a project formulator, software developer and leader with a social, cultural, environmental and technological approach, I am passionate about video games, my main objective is to create a ship and leave this planet Ha ha ha</string>
+
 
 </resources>
